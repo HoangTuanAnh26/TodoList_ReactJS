@@ -43,15 +43,15 @@ function App() {
 
   return (
     <>
-      <h3>Danh sach can lam</h3>
+      <h3>やることリスト</h3>
       <Textfield
         name="add-todo"
-        placeholder="Nhap cong viec can lam"
+        placeholder="やることを入力"
         elemAfterInput={
           <Button isDisabled={!textInput} appearance="primary"
             onClick={onAddBtnClick}
           >
-            Them
+            追加
           </Button>
         }
         css={{ padding: "2px 4px 2px" }}
